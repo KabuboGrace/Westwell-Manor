@@ -12,8 +12,8 @@ class Arobb : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_arobb)
-        call = findViewById(R.id.btncall)
-        sms = findViewById(R.id.btnsms)
+        call = findViewById(R.id.btncallA)
+        sms = findViewById(R.id.btnsmsA)
 
         //call
         call.setOnClickListener {

@@ -8,7 +8,6 @@
     tools:context=".LMsecure">
 
     <include
-        android:id="@+id/include3"
         layout="@layout/toolbar3" />
 
 

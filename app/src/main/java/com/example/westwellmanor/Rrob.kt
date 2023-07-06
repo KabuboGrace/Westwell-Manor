@@ -14,8 +14,8 @@ class Rrob : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_rrob)
-        call = findViewById(R.id.btncall)
-        sms = findViewById(R.id.btnsms)
+        call = findViewById(R.id.btncallR)
+        sms = findViewById(R.id.btnsmsR)
 
         //call
         call.setOnClickListener {

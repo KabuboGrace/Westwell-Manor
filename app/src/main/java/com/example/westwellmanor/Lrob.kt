@@ -15,8 +15,8 @@ class Lrob : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lrob)
 
-        call = findViewById(R.id.btncall)
-        sms = findViewById(R.id.btnsms)
+        call = findViewById(R.id.btncallL)
+        sms = findViewById(R.id.btnsmsL)
 
         //call
         call.setOnClickListener {
