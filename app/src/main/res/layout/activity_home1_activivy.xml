@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home1Activity">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the estate's official app."
+        android:textColor="#9A6AF1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kindly pick which street you are in below."
+        android:paddingLeft="10dp"
+        android:textColor="#9A6AF1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardArnters"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#9A6AF1"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+            <TextView
+                android:layout_width="368dp"
+                android:layout_height="101dp"
+                android:paddingLeft="90dp"
+                android:paddingTop="25dp"
+                android:text="Arnters Street"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="338dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLemers"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#9A6AF1"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+            <TextView
+                android:layout_width="368dp"
+                android:layout_height="101dp"
+                android:paddingLeft="90dp"
+                android:paddingTop="25dp"
+                android:text="Lemers Street"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="455dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRainport"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#9A6AF1"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+            <TextView
+                android:layout_width="368dp"
+                android:layout_height="101dp"
+                android:paddingLeft="90dp"
+                android:paddingTop="25dp"
+                android:text="Rainport street"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="605dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
