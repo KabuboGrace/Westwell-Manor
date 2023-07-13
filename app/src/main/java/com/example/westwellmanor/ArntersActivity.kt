@@ -12,6 +12,7 @@ class ArntersActivity : AppCompatActivity() {
 
     lateinit var security: CardView
     lateinit var reminder: CardView
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,6 +22,8 @@ class ArntersActivity : AppCompatActivity() {
         security = findViewById(R.id.cardSecureAN)
 
         reminder = findViewById(R.id.cardRemindAN)
+
+
 
         security.setOnClickListener {
             var arn = Intent(this,ARNsecure::class.java)
@@ -33,5 +36,6 @@ class ArntersActivity : AppCompatActivity() {
             var arn = Intent(this,ARNreminders::class.java)
             startActivity(arn)
         }
+
     }
 }

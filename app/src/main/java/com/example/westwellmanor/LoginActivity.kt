@@ -11,11 +11,11 @@ import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
-    private lateinit var login:Button
-    private lateinit var signup:TextView
-    private lateinit var myemail:EditText
+    private lateinit var login: Button
+    private lateinit var signup: TextView
+    private lateinit var myemail: EditText
     private lateinit var mypassword: EditText
-    private lateinit var auth:FirebaseAuth
+    private lateinit var auth: FirebaseAuth
 
 
     @SuppressLint("MissingInflatedId")
@@ -23,10 +23,10 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        login=findViewById(R.id.button2)
-        signup=findViewById(R.id.signuppage)
-        myemail=findViewById(R.id.email2)
-        mypassword=findViewById(R.id.pass2)
+        myemail = findViewById(R.id.email12)
+        mypassword = findViewById(R.id.pass2)
+        login = findViewById(R.id.button2)
+        signup = findViewById(R.id.signuppage)
 
         auth = FirebaseAuth.getInstance()
 
@@ -46,14 +46,12 @@ class LoginActivity : AppCompatActivity() {
 
         auth.signInWithEmailAndPassword(email,pass).addOnCompleteListener(this){
             if (it.isSuccessful){
-                Toast.makeText(this,"Successfully logged In",Toast.LENGTH_LONG).show()
-                val intent = Intent(this, Home1Activity::class.java)
+                Toast.makeText(this,"Successfully logged in",Toast.LENGTH_LONG).show()
+                val intent=Intent(this, Home1Activity::class.java)
                 startActivity(intent)
-                finish()
             } else
                 Toast.makeText(this,"Log in failed",Toast.LENGTH_LONG).show()
         }
+
     }
-
-
 }

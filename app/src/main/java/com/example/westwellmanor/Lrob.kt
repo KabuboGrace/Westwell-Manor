@@ -28,7 +28,7 @@ class Lrob : AppCompatActivity() {
         sms.setOnClickListener {
             val uri = Uri.parse("smsto:0721235999")
             val intent = Intent(Intent.ACTION_SENDTO, uri)
-            intent.putExtra("sms_body", "Hello,I am a resident of Westwell Manor,Lemers Street...")
+            intent.putExtra("sms_body", "Hello,I am a resident of Westwell Manor.")
             startActivity(intent)
         }
     }

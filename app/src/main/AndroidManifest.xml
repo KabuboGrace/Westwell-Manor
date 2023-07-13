@@ -13,10 +13,25 @@
         android:theme="@style/Theme.WestwellManor"
         tools:targetApi="31">
         <activity
-            android:name=".CommentDetailsAN"
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApropFe"
+            android:exported="false" />
+        <activity
+            android:name=".ApropCre"
             android:exported="false" />
         <activity
             android:name=".ARNproposal"
+            android:exported="false" />
+        <activity
+            android:name=".ARNhelpline"
+            android:exported="false" />
+        <activity
+            android:name=".HelplineAN"
+            android:exported="false" />
+        <activity
+            android:name=".CommentDetailsAN"
             android:exported="false" />
         <activity
             android:name=".RpropFe"
@@ -26,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".Aremind"
-            android:exported="false" />
-        <activity
-            android:name=".ApropFe"
             android:exported="false" />
         <activity
             android:name=".RpropIn"

@@ -58,7 +58,7 @@ class SignupActivity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(this){
             if (it.isSuccessful){
                   Toast.makeText(this,"Signed up successful",Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, LoginActivity::class.java)
+                val intent = Intent(this, Home1Activity::class.java)
                 startActivity(intent)
                 finish()
 

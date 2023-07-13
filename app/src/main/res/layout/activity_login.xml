@@ -7,27 +7,8 @@
     android:background="#9A6AF1"
     tools:context=".LoginActivity">
 
-
     <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:hint="Enter your Firstname"
-        android:inputType="text"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278" />
-
-    <EditText
-        android:id="@+id/email2"
+        android:id="@+id/email12"
         android:layout_width="207dp"
         android:layout_height="46dp"
         android:autofillHints="emailAddress"
@@ -37,12 +18,32 @@
         android:inputType="textEmailAddress"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textSize="20dp"
+        android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.391"
+        tools:ignore="DuplicateIds" />
+
+
+    <EditText
+        android:id="@+id/name12"
+        android:layout_width="207dp"
+        android:layout_height="46dp"
+        android:autofillHints="emailAddress"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Firstname"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286"
         tools:ignore="DuplicateIds" />
 
     <EditText
@@ -61,7 +62,7 @@
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.516" />
 
     <Button
         android:id="@+id/button2"

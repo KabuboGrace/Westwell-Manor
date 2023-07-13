@@ -40,6 +40,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -63,6 +64,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
+
             <TextView
                 android:layout_width="368dp"
                 android:layout_height="101dp"
@@ -89,6 +91,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
+
             <TextView
                 android:layout_width="368dp"
                 android:layout_height="101dp"
@@ -116,6 +119,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
+
             <TextView
                 android:layout_width="368dp"
                 android:layout_height="101dp"
@@ -130,10 +134,22 @@
         </androidx.cardview.widget.CardView>
 
 
-</LinearLayout>
+    </LinearLayout>
 
-
-
+    <Button
+        android:id="@+id/buttonhelp"
+        android:layout_width="125dp"
+        android:layout_height="49dp"
+        android:text="Help?"
+        android:backgroundTint="#9A6AF1"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
